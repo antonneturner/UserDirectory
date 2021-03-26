@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Table() {
+export default function Table(props) {
   return (
     <table class="table">
       <thead class="thead-dark">
@@ -8,16 +8,18 @@ export default function Table() {
           <th scope="col">#</th>
           <th scope="col">First</th>
           <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+          <th scope="col">Email</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
+        {props.users.map((item) => (
+          <tr>
+            <th scope="row">1</th>
+            <td>{item.name.first}</td>
+            <td>{item.name.last}</td>
+            <td>{item.email}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );
