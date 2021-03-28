@@ -22,7 +22,7 @@
 
 ### Deployment
 
-[Site](https://fitness-tracker-anton.herokuapp.com/?id=6052b1923db2d83f7ce49b2d)
+[Site](https://antonneturner.github.io/UserDirectory/)
 
 # License
 
