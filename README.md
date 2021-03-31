@@ -20,7 +20,7 @@
 
 ![Screenshot (66)](https://user-images.githubusercontent.com/71462708/112740651-8b29f000-8f4c-11eb-8268-ed574d791290.png)
 
-### Deployment
+## Deployment
 
 [Site](https://antonneturner.github.io/UserDirectory/)
 
